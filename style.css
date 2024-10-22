@@ -22,3 +22,26 @@ body{
     background-color: yellowgreen;
     color: darkcyan;
 }
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.pimg1{
+    background-image:url('image1.png');
+    min-height:100%;
+}
+.pimg2{
+    background-image:url('image2.png');
+    min-height:400px;
+}
+.pimg3{
+    background-image:url('image3.png');
+}
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
